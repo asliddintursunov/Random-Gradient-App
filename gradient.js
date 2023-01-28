@@ -31,11 +31,8 @@ const gradientColor = () => {
         randomColor1 += values[ran1];
         randomColor2 += values[ran2];
     }
-    // console.log(randomColor1);
-    // console.log(randomColor2);
-
+    
     let randomDegree = Math.floor(Math.random() * 360) + 'deg';
-    // console.log(randomDegree);
 
     body.style = `background-image: linear-gradient(${randomDegree}, ${randomColor1}, ${randomColor2})`;
 
